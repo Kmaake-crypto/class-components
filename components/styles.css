@@ -1,1 +1,85 @@
+style.css
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Footer main styling - Professional dark background */
+.footer {
+  background: #222;
+  color: white;
+  padding: 40px 20px;
+}
+
+/* Container layout using Flexbox - Makes it responsive */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Moves sections to next line on small screens */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Each section - Proper spacing */
+.footer-section {
+  margin: 10px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h2,
+.footer-section h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.footer-section p {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+/* Links - Interactivity with hover effect */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin: 8px 0;
+}
+
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+.footer-section a:hover {
+  color: white; /* Interactivity - Changes color on hover */
+}
+
+/* Bottom area - Clean separation with border */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #444; /* Clean separation line */
+  padding-top: 10px;
+  opacity: 0.9;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    margin: 15px 0;
+  }
+
+  .footer {
+    padding: 30px 15px;
+  }
+}
 
