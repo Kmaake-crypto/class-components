@@ -1,0 +1,54 @@
+.koketso-section {
+  background: linear-gradient(135deg, #001f3f 0%, #003d7a 100%); /* Navy blue gradient */
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 31, 63, 0.3);
+}
+
+.koketso-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.koketso-section h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: bold;
+  color: #ffffff; /* Pure white for main heading */
+  text-shadow: 2px 2px 4px rgba(0, 31, 63, 0.5);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin: 15px 0;
+  opacity: 0.95;
+  color: #e8f4f8; /* Light white/blue tint */
+}
+
+.description {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+/* Optional accent button styling */
+.koketso-section button {
+  background-color: #ffffff;
+  color: #001f3f;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.koketso-section button:hover {
+  background-color: #e8f4f8;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 31, 63, 0.4);
+}
